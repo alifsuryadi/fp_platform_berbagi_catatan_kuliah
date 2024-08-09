@@ -1,10 +1,10 @@
 import { Button } from "@nextui-org/react";
+import LoginPage from "./pages/LoginPage";
 
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold ">Final Project</h1>
-      <Button color="primary">Click Me</Button>
+      <LoginPage />
     </>
   );
 }
