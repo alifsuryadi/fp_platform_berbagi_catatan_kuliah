@@ -20,13 +20,6 @@ const LoginPage = () => {
   const [dataForm, setDataForm] = useState({ email: "", password: "" });
   const [errors, setErrors] = useState({ email: "", password: "" });
 
-  const handleInputChange = (e) => {
-    setDataForm({
-      ...dataForm,
-      [e.target.name]: e.target.value,
-    });
-  };
-
   const handleBlur = (e) => {
     const { name, value } = e.target;
 
@@ -46,6 +39,13 @@ const LoginPage = () => {
     }
   };
 
+  const handleInputChange = (e) => {
+    setDataForm({
+      ...dataForm,
+      [e.target.name]: e.target.value,
+    });
+  };
+
   const checkEmail = (serverUsers, formData) => {
     const user = serverUsers.find((user) => user.email === formData.email);
     if (user) return user;
@@ -63,10 +63,12 @@ const LoginPage = () => {
       });
     } else {
       setErrors({ email: "", password: "" });
+
       const user = await axiosInstance
         .get("/users")
         .then((res) => checkEmail(res.data, dataForm));
-      if (user.email === dataForm.email) {
+
+      if (user) {
         if (user.password === dataForm.password) {
           toast.success("Login Berhasil");
           navigate("/homepage");
@@ -94,8 +96,8 @@ const LoginPage = () => {
               fullWidth
               name="email"
               value={dataForm.email}
-              onChange={handleInputChange}
               onBlur={handleBlur}
+              onChange={handleInputChange}
             />
             {errors.email && (
               <p className="text-red-500 ml-1 mt-1 text-tiny">{errors.email}</p>
@@ -108,8 +110,8 @@ const LoginPage = () => {
               fullWidth
               name="password"
               value={dataForm.password}
-              onChange={handleInputChange}
               onBlur={handleBlur}
+              onChange={handleInputChange}
             />
             {errors.password && (
               <p className="text-red-500 text-tiny mt-1 ml-1">
@@ -117,7 +119,7 @@ const LoginPage = () => {
               </p>
             )}
           </div>
-          <Link href="#" className="text-sm mb-4 block text-left">
+          <Link to="#" className="text-sm mb-4 block text-left">
             Lupa kata sandi?
           </Link>
           <Button type="submit" className="bg-green-700 text-white w-full mb-4">
