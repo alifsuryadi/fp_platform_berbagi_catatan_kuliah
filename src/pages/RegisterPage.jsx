@@ -4,21 +4,28 @@ import { z } from "zod";
 import { useForm, Controller } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 
-const registerFormSchema = z.object({
-  email: z
-    .string()
-    .min(1, { message: "Kolom ini harus diisi." })
-    .email("Email tidak valid."),
-  password: z
-    .string()
-    .min(6, { message: "Password harus memiliki minimal 6 karakter." }),
-  confirmPassword: z
-    .string()
-    .min(6, { message: "Konfirmasi password harus memiliki minimal 6 karakter." })
-}).superRefine(({confirmPassword, password},context)=> {if(confirmPassword !== password){
-    context.addIssue({code: "", message: "Password Tidak Sama", path:['confirmPassword']})
-}});
-
+const registerFormSchema = z
+  .object({
+    email: z
+      .string()
+      .min(1, { message: "Kolom ini harus diisi." })
+      .email("Email tidak valid."),
+    password: z
+      .string()
+      .min(6, { message: "Password harus memiliki minimal 6 karakter." }),
+    confirmPassword: z.string().min(6, {
+      message: "Konfirmasi password harus memiliki minimal 6 karakter.",
+    }),
+  })
+  .superRefine(({ confirmPassword, password }, context) => {
+    if (confirmPassword !== password) {
+      context.addIssue({
+        code: "",
+        message: "Password Tidak Sama",
+        path: ["confirmPassword"],
+      });
+    }
+  });
 
 const RegisterPage = () => {
   const form = useForm({
@@ -33,8 +40,12 @@ const RegisterPage = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
       <div className="bg-white p-8 rounded-lg shadow-md w-96">
-        <h1 className="text-2xl text-green-700 font-bold text-center mb-4">REGISTER</h1>
-        <p className="mb-6 text-center">Mulai Simpan catatan kamu bersama kami</p>
+        <h1 className="text-2xl text-green-700 font-bold text-center mb-4">
+          REGISTER
+        </h1>
+        <p className="mb-6 text-center">
+          Mulai Simpan catatan kamu bersama kami
+        </p>
 
         <form onSubmit={form.handleSubmit((data) => console.log(data))}>
           <Controller
