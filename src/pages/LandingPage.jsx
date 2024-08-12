@@ -3,7 +3,7 @@ import React from "react";
 import Nav from "../components/Nav";
 import { Button, Card, CardBody, CardFooter, Image } from "@nextui-org/react";
 import Hero from "../components/Hero";
-import FootLanding from "../components/FootLanding";
+import Footlanding from "../components/FootLanding";
 import Buku from "../assets/books.png";
 
 const LandingPage = () => {
@@ -113,7 +113,7 @@ const LandingPage = () => {
         </Button>
       </div>
 
-      <FootLanding />
+      <Footlanding />
     </div>
   );
 };

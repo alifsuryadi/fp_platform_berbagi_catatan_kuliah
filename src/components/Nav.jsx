@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import {
   Navbar,
   NavbarBrand,
@@ -7,8 +8,6 @@ import {
   NavbarMenuToggle,
   NavbarMenu,
   NavbarMenuItem,
-  Link,
-  Button,
 } from "@nextui-org/react";
 
 const Nav = () => {
@@ -35,17 +34,15 @@ const Nav = () => {
 
         <NavbarContent justify="end">
           <NavbarItem className="hidden lg:flex">
-            <Link className="text-green-800 font-semibold" href="#">
+            <Link className="text-green-800 font-semibold" to="/">
               Home
             </Link>
           </NavbarItem>
           <NavbarItem className="hidden lg:flex">
-            <Link className="text-green-800 font-bold" href="#">
-              Cari Catatan
-            </Link>
+            <Link className="text-green-800 font-bold">Cari Catatan</Link>
           </NavbarItem>
           <NavbarItem>
-            <Link className="text-green-800 font-semibold" href="#">
+            <Link className="text-green-800 font-semibold" to="/login">
               Login
             </Link>
           </NavbarItem>

@@ -1,6 +1,9 @@
 import { useState } from "react";
-import { Input, Button, Link } from "@nextui-org/react";
+import { Input, Button } from "@nextui-org/react";
+import { Link, useNavigate } from "react-router-dom";
+import { toast } from "react-toastify";
 import { z } from "zod";
+import { axiosInstance } from "../lib/axios";
 
 const schema = z.object({
   email: z
@@ -13,6 +16,7 @@ const schema = z.object({
 });
 
 const LoginPage = () => {
+  const navigate = useNavigate();
   const [dataForm, setDataForm] = useState({ email: "", password: "" });
   const [errors, setErrors] = useState({ email: "", password: "" });
 
@@ -42,7 +46,12 @@ const LoginPage = () => {
     }
   };
 
-  const handleSubmit = (e) => {
+  const checkEmail = (serverUsers, formData) => {
+    const user = serverUsers.find((user) => user.email === formData.email);
+    if (user) return user;
+  };
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
     const result = schema.safeParse(dataForm);
@@ -54,7 +63,19 @@ const LoginPage = () => {
       });
     } else {
       setErrors({ email: "", password: "" });
-      console.log("Form terkirim", dataForm);
+      const user = await axiosInstance
+        .get("/users")
+        .then((res) => checkEmail(res.data, dataForm));
+      if (user.email === dataForm.email) {
+        if (user.password === dataForm.password) {
+          toast.success("Login Berhasil");
+          navigate("/homepage");
+        } else {
+          toast.error("Password Salah");
+        }
+      } else {
+        toast.error("Email Salah");
+      }
     }
   };
 
@@ -103,7 +124,10 @@ const LoginPage = () => {
             Masuk
           </Button>
           <p className="text-center">
-            Belum punya akun? <Link href="#">Daftar</Link>
+            Belum punya akun?{" "}
+            <Link className="text-blue-600" to="/register">
+              Daftar
+            </Link>
           </p>
         </form>
       </div>
