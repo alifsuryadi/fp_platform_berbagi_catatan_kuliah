@@ -11,7 +11,7 @@ import {
   Button,
 } from "@nextui-org/react";
 
-const NavigationBar = () => {
+const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
   const menuItems = ["Home", "Cari Catatan"];
@@ -64,4 +64,4 @@ const NavigationBar = () => {
   );
 };
 
-export default NavigationBar;
+export default Nav;

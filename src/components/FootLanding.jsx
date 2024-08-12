@@ -1,7 +1,7 @@
 import { Link, Navbar, NavbarContent, NavbarItem } from "@nextui-org/react";
 import React from "react";
 
-const FooterBar = () => {
+const FootLanding = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
   const menuItems = ["Catatanku"];
@@ -34,4 +34,4 @@ const FooterBar = () => {
   );
 };
 
-export default FooterBar;
+export default FootLanding;

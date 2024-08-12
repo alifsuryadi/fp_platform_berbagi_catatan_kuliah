@@ -1,9 +1,9 @@
 import React from "react";
 
-import NavigationBar from "../components/NavigationBar";
+import Nav from "../components/Nav";
 import { Button, Card, CardBody, CardFooter, Image } from "@nextui-org/react";
 import Hero from "../components/Hero";
-import FooterBar from "../components/FooterBar";
+import FootLanding from "../components/FootLanding";
 import Buku from "../assets/books.png";
 
 const LandingPage = () => {
@@ -32,7 +32,7 @@ const LandingPage = () => {
 
   return (
     <div>
-      <NavigationBar />
+      <Nav />
 
       <Hero />
 
@@ -113,7 +113,7 @@ const LandingPage = () => {
         </Button>
       </div>
 
-      <FooterBar />
+      <FootLanding />
     </div>
   );
 };
