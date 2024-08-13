@@ -4,9 +4,14 @@ import Nav from "../components/Nav";
 import { Button, Card, CardBody, CardFooter, Image } from "@nextui-org/react";
 import Hero from "../components/Hero";
 import Footlanding from "../components/FootLanding";
-import Buku from "../assets/books.png";
 
 const LandingPage = () => {
+  const gambar1 =
+    "https://images.pexels.com/photos/5965698/pexels-photo-5965698.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
+
+  const gambar2 =
+    "https://images.pexels.com/photos/1181248/pexels-photo-1181248.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
+
   const list = [
     {
       title: "Ilmu Pengetahuan Alam",
@@ -33,12 +38,47 @@ const LandingPage = () => {
   return (
     <div>
       <Nav />
-
       <Hero />
-
       <div className="md:px-[128px] px-5">
         <div className="mt-12 mb-12">
-          <h2 className="text-green-900 font-bold">Paling Banyak Dilihat</h2>
+          <h2 className="text-hijau-muda font-bold text-xl">
+            Kenapa NoteKuliah?
+          </h2>
+        </div>
+        <div className="flex flex-row justify-around">
+          <div className="max-w-40 sm:max-w-80">
+            <Image src={gambar1} />
+          </div>
+          <div className="flex flex-col max-w-40 sm:max-w-80 justify-center">
+            <p className="sm:text-xl font-bold text-hijau-paling-muda">
+              Berbagi Pengetahuan
+            </p>
+            <p className="text-abu-gelap text-xs sm:text-medium">
+              Bantu sesama mahasiswa dengan membagikan catatanmu dan temukan
+              catatan terbaik dari mahasiswa lainnya.
+            </p>
+          </div>
+        </div>
+        <div className="flex flex-row justify-around mt-10">
+          <div className="flex flex-col max-w-40 sm:max-w-80 justify-center">
+            <p className="sm:text-xl font-bold text-hijau-paling-muda">
+              Akses Mudah
+            </p>
+            <p className="text-abu-gelap text-xs sm:text-medium">
+              Cukup login, cari, dan temukan catatan yang kamu butuhkan.
+            </p>
+          </div>
+          <div className="max-w-40 sm:max-w-80">
+            <Image src={gambar2} />
+          </div>
+        </div>
+      </div>
+
+      <div className="md:px-[128px] px-5">
+        <div className="mt-16 mb-8">
+          <h2 className="text-hijau-muda font-bold text-xl">
+            Jelajahi Berbagai Kategori Catatan
+          </h2>
         </div>
         <div className="gap-1 grid md:grid-cols-5 grid-cols-2">
           {list.map((item, index) => (
@@ -51,6 +91,7 @@ const LandingPage = () => {
             >
               <CardBody className="overflow-visible p-0">
                 <Image
+                  isZoomed
                   shadow="sm"
                   radius="none"
                   width="100%"
@@ -67,50 +108,15 @@ const LandingPage = () => {
         </div>
       </div>
 
-      <div className="md:px-[128px] px-5">
-        <div className="mt-12 mb-12">
-          <h2 className="text-green-900 font-bold">Kenapa Pilih Note Kuliah</h2>
-        </div>
-
-        <div className="grid grid-cols-2 ">
-          <div className="w-full md:w-1/2">
-            <img src={Buku} alt="Monitoring" />
-          </div>
-
-          <div className="w-full md:w-1/2 my-auto">
-            <h4 className="text-2xl text-gray-800 font-bold mb-5">
-              Catatan Terstruktur
-            </h4>
-            <p className="text-gray-600 mb-8">
-              Dapatkan catatan kuliah yang lengkap dan terorganisir
+      <div className="bg-black/5 p-4 mt-32 mb-20">
+        <div className="md:px-[128px] px-5">
+          <div className="flex justify-between items-center">
+            <p className="text-abu-gelap">
+              Mulailah berbagi dan belajar bersama di NoteKuliah
             </p>
+            <Button className="bg-hijau-muda text-white">Buat Catatan</Button>
           </div>
         </div>
-      </div>
-
-      <div className="md:px-[128px] px-5">
-        <div className="mt-12 mb-12"></div>
-        <div className="grid grid-cols-2 ">
-          <div className="w-full md:w-1/2 my-auto mx-96">
-            <h4 className="text-2xl text-gray-800 font-bold mb-5">
-              Pencarian Mudah
-            </h4>
-            <p className="text-gray-600 mb-8">
-              Temukan catatan berdasarkan jurusan mata kuliah
-            </p>
-          </div>
-          <div className="w-full md:w-1/2 mx-40">
-            <img src={Buku} alt="Monitoring" />
-          </div>
-        </div>
-      </div>
-
-      <div className="mt-20 mb-12"></div>
-      <div className="flex justify-around bg-black/5 p-4">
-        <p className="font-semibold">Siap untuk menyimpan catatan Anda ?</p>
-        <Button color="success" className="text-white">
-          Buat Catatan
-        </Button>
       </div>
 
       <Footlanding />

@@ -40,7 +40,7 @@ const HomePage = () => {
       <NavigationBar />
       <div className="md:px-[128px] px-5">
         <div className="mt-5 mb-3">
-          <h2 className="text-green-800 font-bold">Cari Catatan</h2>
+          <h2 className="text-hijau-tua font-bold">Cari Catatan</h2>
         </div>
         <div>
           <Input
@@ -60,7 +60,7 @@ const HomePage = () => {
 
         <div>
           <div className="mt-5 mb-3">
-            <h2 className="text-green-800 font-bold">
+            <h2 className="text-hijau-tua font-bold">
               Cari Berdasarkan Kategori
             </h2>
           </div>

@@ -80,9 +80,9 @@ const LoginPage = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-abu-muda">
       <div className="bg-white p-8 rounded-lg shadow-md w-96">
-        <h1 className="text-2xl text-green-700 font-bold text-center mb-4">
+        <h1 className="text-2xl text-hijau-paling-muda font-bold text-center mb-4">
           MASUK
         </h1>
         <p className="mb-8 text-center">Simpan catatan Anda bersama kami</p>
@@ -98,7 +98,7 @@ const LoginPage = () => {
               onBlur={handleBlur}
             />
             {errors.email && (
-              <p className="text-red-500 ml-1 mt-1 text-tiny">{errors.email}</p>
+              <p className="text-red ml-1 mt-1 text-tiny">{errors.email}</p>
             )}
           </div>
           <div className="mb-4">
@@ -112,20 +112,27 @@ const LoginPage = () => {
               onBlur={handleBlur}
             />
             {errors.password && (
-              <p className="text-red-500 text-tiny mt-1 ml-1">
-                {errors.password}
-              </p>
+              <p className="text-red text-tiny mt-1 ml-1">{errors.password}</p>
             )}
           </div>
-          <Link href="#" className="text-sm mb-4 block text-left">
+          <Link
+            href="#"
+            className="text-sm mb-4 block text-left"
+          >
             Lupa kata sandi?
           </Link>
-          <Button type="submit" className="bg-green-700 text-white w-full mb-4">
+          <Button
+            type="submit"
+            className="bg-hijau-muda text-white w-full mb-4"
+          >
             Masuk
           </Button>
           <p className="text-center">
             Belum punya akun?{" "}
-            <Link className="text-blue-600" to="/register">
+            <Link
+              className="text-hijau-paling-muda"
+              to="/register"
+            >
               Daftar
             </Link>
           </p>

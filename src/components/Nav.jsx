@@ -17,7 +17,7 @@ const Nav = () => {
   return (
     <div>
       <Navbar
-        className="border-b-1 border-gray-300"
+        className="border-b-1 border-abu-muda"
         onMenuOpenChange={setIsMenuOpen}
       >
         <NavbarContent>
@@ -26,23 +26,29 @@ const Nav = () => {
             className="sm:hidden"
           />
           <NavbarBrand>
-            <p className="font-bold text-inherit text-green-950 text-2xl">
-              <strong className="text-green-300">Note</strong>Kuliah.
+            <p className="font-bold text-inherit text-hijau-tua text-2xl">
+              <strong className="text-hijau-paling-muda">Note</strong>Kuliah.
             </p>
           </NavbarBrand>
         </NavbarContent>
 
         <NavbarContent justify="end">
-          <NavbarItem className="hidden lg:flex">
-            <Link className="text-green-800 font-semibold" to="/">
+          <NavbarItem className="hidden lg:flex ">
+            <Link
+              className="text-hijau-paling-muda font-semibold text-sm"
+              to="/"
+            >
               Home
             </Link>
           </NavbarItem>
           <NavbarItem className="hidden lg:flex">
-            <Link className="text-green-800 font-bold">Cari Catatan</Link>
+            <Link className="text-hijau-tua font-bold text-sm">Temukan</Link>
           </NavbarItem>
           <NavbarItem>
-            <Link className="text-green-800 font-semibold" to="/login">
+            <Link
+              className="text-hijau-tua font-semibold text-sm"
+              to="/login"
+            >
               Login
             </Link>
           </NavbarItem>
@@ -50,7 +56,11 @@ const Nav = () => {
         <NavbarMenu>
           {menuItems.map((item, index) => (
             <NavbarMenuItem key={`${item}-${index}`}>
-              <Link className="w-full text-green-800" href="#" size="lg">
+              <Link
+                className="w-full text-hijau-tua"
+                href="#"
+                size="lg"
+              >
                 {item}
               </Link>
             </NavbarMenuItem>

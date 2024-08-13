@@ -98,9 +98,9 @@ const RegisterPage = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-abu-muda">
       <div className="bg-white p-8 rounded-lg shadow-md w-96">
-        <h1 className="text-2xl text-green-700 font-bold text-center mb-4">
+        <h1 className="text-2xl text-hijau-muda font-bold text-center mb-4">
           REGISTER
         </h1>
         <p className="mb-6 text-center">
@@ -118,7 +118,7 @@ const RegisterPage = () => {
             onChange={handleInputChange}
           />
           {errors.nama && (
-            <p className="text-red-500 ml-1 mt-1 text-tiny">{errors.nama}</p>
+            <p className="text-red ml-1 mt-1 text-tiny">{errors.nama}</p>
           )}
           <Input
             type="email"
@@ -131,7 +131,7 @@ const RegisterPage = () => {
             onChange={handleInputChange}
           />
           {errors.email && (
-            <p className="text-red-500 ml-1 mt-1 text-tiny">{errors.email}</p>
+            <p className="text-red ml-1 mt-1 text-tiny">{errors.email}</p>
           )}
           <Input
             type="password"
@@ -144,9 +144,7 @@ const RegisterPage = () => {
             onChange={handleInputChange}
           />
           {errors.password && (
-            <p className="text-red-500 ml-1 mt-1 text-tiny">
-              {errors.password}
-            </p>
+            <p className="text-red ml-1 mt-1 text-tiny">{errors.password}</p>
           )}
           <Input
             type="password"
@@ -159,16 +157,22 @@ const RegisterPage = () => {
             onChange={handleInputChange}
           />
           {errors.confirmPassword && (
-            <p className="text-red-500 ml-1 mt-1 text-tiny">
+            <p className="text-red ml-1 mt-1 text-tiny">
               {errors.confirmPassword}
             </p>
           )}
-          <Button type="submit" className="bg-green-700 text-white w-full mb-4">
+          <Button
+            type="submit"
+            className="bg-hijau-muda text-white w-full mb-4"
+          >
             Daftar
           </Button>
           <p className="text-center">
             Sudah punya akun?{" "}
-            <Link className="text-blue-600" to="/login">
+            <Link
+              className="text-hijau-paling-muda"
+              to="/login"
+            >
               Masuk
             </Link>
           </p>

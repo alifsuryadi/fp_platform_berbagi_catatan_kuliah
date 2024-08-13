@@ -11,10 +11,22 @@ function App() {
     <>
       <ToastContainer />
       <Routes>
-        <Route path="/" element={<LandingPage />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<Register />} />
-        <Route path="/homepage" element={<HomePage />} />
+        <Route
+          path="/"
+          element={<LandingPage />}
+        />
+        <Route
+          path="/login"
+          element={<Login />}
+        />
+        <Route
+          path="/register"
+          element={<Register />}
+        />
+        <Route
+          path="/homepage"
+          element={<HomePage />}
+        />
       </Routes>
     </>
   );

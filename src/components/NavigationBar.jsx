@@ -29,7 +29,7 @@ const NavigationBar = () => {
 
   return (
     <Navbar
-      className="border-b-1 border-gray-400"
+      className="border-b-1 border-abu-muda"
       onMenuOpenChange={setIsMenuOpen}
     >
       <NavbarContent>
@@ -38,22 +38,28 @@ const NavigationBar = () => {
           className="sm:hidden"
         />
         <NavbarBrand>
-          <p className="font-bold text-inherit text-green-800 text-2xl">
-            <strong className="text-green-300">Note</strong>Kuliah.
+          <p className="font-bold text-inherit text-hijau-tua text-2xl">
+            <strong className="text-hijau-paling-muda">Note</strong>Kuliah.
           </p>
         </NavbarBrand>
       </NavbarContent>
 
       <NavbarContent justify="end">
         <NavbarItem className="hidden lg:flex">
-          <Link className="text-green-600 text-xl" href="#">
+          <Link
+            className="text-hijau-tua text-sm"
+            href="#"
+          >
             Catatanku
           </Link>
         </NavbarItem>
         <NavbarItem>
           <Dropdown>
             <DropdownTrigger>
-              <Button isIconOnly className="bg-transparent">
+              <Button
+                isIconOnly
+                className="bg-transparent"
+              >
                 <IconProfile />
               </Button>
             </DropdownTrigger>
@@ -74,7 +80,11 @@ const NavigationBar = () => {
       <NavbarMenu>
         {menuItems.map((item, index) => (
           <NavbarMenuItem key={`${item}-${index}`}>
-            <Link className="w-full text-green-800" href="#" size="lg">
+            <Link
+              className="w-full text-hijau-tua"
+              href="#"
+              size="lg"
+            >
               {item}
             </Link>
           </NavbarMenuItem>
