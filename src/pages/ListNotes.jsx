@@ -8,11 +8,13 @@ import { useSelector } from "react-redux";
 
 const ListNotes = () => {
   const mail = useSelector((store) => store.authenticated.email);
+
   const [data, setData] = useState([]);
   const [filterValue, setFilterValue] = useState("");
   const [rowsPerPage, setRowsPerPage] = useState(5);
   const [page, setPage] = useState(1);
   const [categoryName, setCategoryName] = useState("");
+  const [userData, setUserData] = useState([]);
 
   const location = useLocation();
   const categoryId = new URLSearchParams(location.search).get("category");
@@ -114,14 +116,11 @@ const ListNotes = () => {
                   <CardBody>
                     <div className="flex gap-3">
                       <div className="flex flex-col max-w-24">
-                        <Image src={item.images[0].data_url} />
+                        <Image src={item.images[0]?.data_url} />
                       </div>
                       <div className="flex flex-col">
                         <p className="text-hijau-muda font-semibold">
                           {item.title}
-                        </p>
-                        <p className="text-hijau-paling-muda text-sm font-medium">
-                          {item.userId}
                         </p>
                         <p className="text-abu-gelap text-xs">
                           {item.description}

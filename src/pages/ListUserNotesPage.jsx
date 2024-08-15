@@ -62,6 +62,8 @@ export const noteSchema = z.object({
 
 const ListUserNotesPage = () => {
   const mail = useSelector((store) => store.authenticated.email);
+  const user = JSON.parse(localStorage.getItem("user"));
+  const userId = user.id;
 
   const [filterValue, setFilterValue] = React.useState("");
   const [selectedKeys, setSelectedKeys] = React.useState(new Set([]));
@@ -106,14 +108,10 @@ const ListUserNotesPage = () => {
     },
   });
 
-  //user id sementara
-  const userId = 1;
-
   const fetchNotes = async (userId) => {
+    // `/categories?id=${categoryId}`
     try {
-      const result = await axiosInstance.get("/notes", {
-        params: { userId: userId },
-      });
+      const result = await axiosInstance.get(`/notes?userId=${userId}`);
       setNotesData(result.data);
     } catch (error) {
       console.error("Error fetching notes:", error);
@@ -189,7 +187,7 @@ const ListUserNotesPage = () => {
 
         // Membuat data catatan dengan URL gambar
         const noteData = {
-          userId: userId.toString(),
+          userId: userId,
           categoryId: data.categoryId,
           title: data.title,
           description: data.description,
@@ -209,7 +207,7 @@ const ListUserNotesPage = () => {
       } else {
         // Jika tidak ada gambar, langsung kirim data catatan
         const noteData = {
-          userId: userId.toString(),
+          userId: userId,
           categoryId: data.categoryId,
           title: data.title,
           description: data.description,
@@ -935,7 +933,7 @@ const ListUserNotesPage = () => {
                       color="primary"
                       type="submit"
                     >
-                      Tambah
+                      Simpan
                     </Button>
                   </ModalFooter>
                 </form>
