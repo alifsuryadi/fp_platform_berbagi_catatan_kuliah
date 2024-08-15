@@ -1,11 +1,12 @@
 {
   "users": [
     {
-      "id": "1",
+      "id": "ca40",
       "nama": "octa",
-      "email": "adiputraoctavan@gmail.com",
-      "password": "123456",
-      "confirmPassword": "123456"
+      "email": "adiputraoctavani@gmail.com",
+      "password": "654321",
+      "confirmPassword": "654321",
+      "deskripsi": "lorem ipsum dolor sit amet"
     },
     {
       "id": "ed0e",
@@ -13,57 +14,7 @@
       "email": "epsa@gmail.com",
       "password": "qwerty",
       "confirmPassword": "qwerty",
-      "deskripsi": "Saya adalah enigmanians \n"
-    }
-  ],
-  "notes": [
-    {
-      "userId": "1",
-      "categoryId": "3",
-      "title": "Mengenal Framework dalam Pengembangan Aplikasi dan Program",
-      "description": "Apa Itu Framework?\n\nFramework adalah sebuah kumpulan kode yang dapat digunakan untuk membantu pengembangan aplikasi atau program. Framework ini menyediakan beberapa fitur yang dapat digunakan oleh pengembang untuk mempermudah dan mempercepat proses pengembangan. Framework dapat berupa software atau library yang dapat digunakan untuk membangun aplikasi atau program dengan cara yang lebih efisien dan efektif.\n\nFramework dapat beragam, mulai dari framework untuk pengembangan aplikasi web, mobile, hingga aplikasi desktop. Beberapa contoh framework yang populer diantaranya:\n\nDjango: Framework Python untuk pengembangan aplikasi web.\nRuby on Rails: Framework Ruby untuk pengembangan aplikasi web.\nAngularJS: Framework JavaScript untuk pengembangan aplikasi web.\nReact Native: Framework untuk pengembangan aplikasi mobile.\nFlutter: Framework untuk pengembangan aplikasi mobile dan web.\nFramework ini dapat mempermudah proses pengembangan, mengurangi kode duplikat, dan memastikan konsistensi kode. Framework juga dapat menyediakan beberapa fitur yang dapat digunakan secara langsung, seperti autentikasi, routing, dan database. Pengembang dapat menggunakan framework yang sesuai dengan teknologi yang digunakan dalam proyeknya. Pilihan framework yang tepat akan mempermudah proses pengembangan dan memastikan kualitas kode yang tinggi.\n\nJadi, Framework adalah sebuah kumpulan kode yang dapat digunakan untuk membantu pengembangan aplikasi atau program. Framework ini dapat mempermudah proses pengembangan, mengurangi kode duplikat, dan memastikan konsistensi kode. Pengembang dapat menggunakan framework yang sesuai dengan teknologi yang digunakan dalam proyeknya. Pilihan framework yang tepat akan mempermudah proses pengembangan dan memastikan kualitas kode yang tinggi.\n\nFramework juga dapat dipelajari melalui jurusan rekayasa perangkat lunak, salah satu perguruan tinggi yang menyediakan jurusan ini adalah Telkom University Surabaya. Jurusan rekayasa perangkat lunak di Telkom University Surabaya mempelajari:\n\nArtificial Intelligence\nAnimation and 3D Modelling\nMobile Programming\nWeb Programming\nGame Programming",
-      "images": [
-        {
-          "data_url": "http://localhost:5173/uploads/1723716885774.jpg"
-        }
-      ],
-      "timestamp": 1723716885801,
-      "id": "b42f"
-    },
-    {
-      "id": "6caf",
-      "userId": "1",
-      "categoryId": "2",
-      "title": "Contoh Soal dari Teorema Dasar Kalkulus II",
-      "description": "Teorema Dasar Kalkulus ??? Apa sih itu ?\n\nDulu, untuk menyelesaikan persamaan integral tentu orang-orang menggunakan sebuah cara yang disebut dengan Jumlah Riemann. Setelah bertahun – tahun kemudian, para ilmuwan seperti Newton dan Leibniz mengaji lebih dalam mengenai kemiringan garis singgung dan luas daerah kurva. Mereka memahami dan memanfaatkan hubungan antara anti-turunan dengan integral tentu. Hubungan inilah yang disebut dengan Teorema Dasar Kalkulus Pertama.\n\nTeorema dasar kalkulus menjelaskan tentang hubungan antara dua operasi pusat kalkulus , yaitu diferensiasi dan integrasi. Sesungguhnya diferensiasi dengan integrasi merupakan dua opeasi inverse seperti penjumlahan dengan pengurangan atau pembagian dengan perkalian. Teorema Dasar Kalkulus digunakan untuk membantu menyelesaikan proses pengintegralan suatu fungsi. Teorema dasar kalkulus ada dua, pertama disebut dengan Teorema Dasar Kalkulus I dan yang kedua disebut dengan Teorema Dasar Kalkulus II.dan sekrang aku share contoh soal dari Teorema Dasar Kalkulus II",
-      "images": [
-        {
-          "data_url": "http://localhost:5173/uploads/1723711752094.jpg"
-        },
-        {
-          "data_url": "http://localhost:5173/uploads/1723711752096.jpg"
-        }
-      ],
-      "timestamp": 1723711752124
-    },
-    {
-      "id": "0d3c",
-      "userId": "ed0e",
-      "categoryId": "4",
-      "title": "Teknologi Informasi",
-      "description": "Penjelasan Mengenai Dasar-Dasar Teknologi Informasi",
-      "images": [
-        {
-          "data_url": "http://localhost:5173/uploads/1723718016811.jpg"
-        },
-        {
-          "data_url": "http://localhost:5173/uploads/1723718016813.jpg"
-        },
-        {
-          "data_url": "http://localhost:5173/uploads/1723718016820.jpg"
-        }
-      ],
-      "timestamp": 1723718016828
+      "deskripsi": "Saya adalah enigmanians yang belajar ReactJS\n"
     }
   ],
   "categories": [
@@ -91,6 +42,188 @@
       "id": "5",
       "name": "Ilmu Kesehatan",
       "img": "https://img.freepik.com/free-vector/science-concept-with-microscope_23-2148539650.jpg?t=st=1723192740~exp=1723196340~hmac=4285f2c32cf4254aa650e87451fe308fd42c2e6f9a2e586e8d8846bd890f4938&w=740"
+    }
+  ],
+  "notes": [
+    {
+      "id": "215c",
+      "userId": "ca40",
+      "categoryId": "5",
+      "title": "Anatomi Manusia",
+      "description": "Studi tentang struktur anatomi manusia.",
+      "images": [],
+      "timestamp": 1723584903000
+    },
+    {
+      "id": "1e2d",
+      "userId": "ca40",
+      "categoryId": "4",
+      "title": "Jaringan Komputer",
+      "description": "Pengantar pada jaringan komputer dan komunikasinya.",
+      "images": [],
+      "timestamp": 1723281651000
+    },
+    {
+      "id": "2366",
+      "userId": "ca40",
+      "categoryId": "5",
+      "title": "Farmakologi",
+      "description": "Pengantar farmakologi dan penggunaannya.",
+      "images": [],
+      "timestamp": 1723461305000
+    },
+    {
+      "id": "156f",
+      "userId": "ed0e",
+      "categoryId": "4",
+      "title": "Keamanan Informasi",
+      "description": "Prinsip-prinsip keamanan informasi dalam TI.",
+      "images": [],
+      "timestamp": 1723697543000
+    },
+    {
+      "id": "0da1",
+      "userId": "ed0e",
+      "categoryId": "1",
+      "title": "Metabolisme Energi",
+      "description": "Pemahaman tentang proses metabolisme energi pada makhluk hidup.",
+      "images": [],
+      "timestamp": 1723491359000
+    },
+    {
+      "id": "098c",
+      "userId": "ed0e",
+      "categoryId": "1",
+      "title": "Fotosintesis pada Tumbuhan",
+      "description": "Studi tentang proses fotosintesis pada tumbuhan hijau.",
+      "images": [],
+      "timestamp": 1723381409000
+    },
+    {
+      "id": "073d",
+      "userId": "ca40",
+      "categoryId": "3",
+      "title": "Termodinamika",
+      "description": "Konsep dasar dalam termodinamika.",
+      "images": [],
+      "timestamp": 1723366846000
+    },
+    {
+      "userId": "ed0e",
+      "categoryId": "1",
+      "title": "Ekosistem Laut",
+      "description": "Pengamatan terhadap ekosistem laut dan keragaman hayatinya.",
+      "images": [],
+      "timestamp": 1723718970682,
+      "id": "042d"
+    },
+    {
+      "id": "1f24",
+      "userId": "ca40",
+      "categoryId": "5",
+      "title": "Patologi Klinis",
+      "description": "Pemahaman dasar patologi klinis.",
+      "images": [],
+      "timestamp": 1723516917000
+    },
+    {
+      "id": "18b5",
+      "userId": "ca40",
+      "categoryId": "1",
+      "title": "Metabolisme Energi",
+      "description": "Pemahaman tentang proses metabolisme energi pada makhluk hidup.",
+      "images": [],
+      "timestamp": 1723415380000
+    },
+    {
+      "id": "1020",
+      "userId": "ed0e",
+      "categoryId": "3",
+      "title": "Kinematika",
+      "description": "Studi tentang gerak benda dan kinematika.",
+      "images": [],
+      "timestamp": 1723619654000
+    },
+    {
+      "id": "10a0",
+      "userId": "ca40",
+      "categoryId": "2",
+      "title": "Teori Angka",
+      "description": "Studi mendalam tentang teori angka.",
+      "images": [],
+      "timestamp": 1723521605000
+    },
+    {
+      "id": "0735",
+      "userId": "ed0e",
+      "categoryId": "5",
+      "title": "Farmakologi",
+      "description": "Pengantar farmakologi dan penggunaannya.",
+      "images": [],
+      "timestamp": 1723401224000
+    },
+    {
+      "id": "20a8",
+      "userId": "ca40",
+      "categoryId": "2",
+      "title": "Geometri Analitik",
+      "description": "Analisis geometri menggunakan pendekatan analitik.",
+      "images": [],
+      "timestamp": 1723427280000
+    },
+    {
+      "id": "23b0",
+      "userId": "ca40",
+      "categoryId": "5",
+      "title": "Biostatistika",
+      "description": "Penerapan biostatistika dalam penelitian kesehatan.",
+      "images": [],
+      "timestamp": 1723676485000
+    },
+    {
+      "id": "1715",
+      "userId": "ca40",
+      "categoryId": "1",
+      "title": "Fotosintesis pada Tumbuhan",
+      "description": "Studi tentang proses fotosintesis pada tumbuhan hijau.",
+      "images": [],
+      "timestamp": 1723334935000
+    },
+    {
+      "id": "0941",
+      "userId": "ca40",
+      "categoryId": "4",
+      "title": "Jaringan Komputer",
+      "description": "Pengantar pada jaringan komputer dan komunikasinya.",
+      "images": [],
+      "timestamp": 1723616249000
+    },
+    {
+      "id": "1298",
+      "userId": "ca40",
+      "categoryId": "5",
+      "title": "Farmakologi",
+      "description": "Pengantar farmakologi dan penggunaannya.",
+      "images": [],
+      "timestamp": 1723446628000
+    },
+    {
+      "id": "0421",
+      "userId": "ca40",
+      "categoryId": "2",
+      "title": "Geometri Analitik",
+      "description": "Analisis geometri menggunakan pendekatan analitik.",
+      "images": [],
+      "timestamp": 1723370803000
+    },
+    {
+      "id": "20af",
+      "userId": "ca40",
+      "categoryId": "3",
+      "title": "Statika",
+      "description": "Pengantar pada statika dalam teknik sipil.",
+      "images": [],
+      "timestamp": 1723547277000
     }
   ]
 }

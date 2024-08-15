@@ -933,7 +933,7 @@ const ListUserNotesPage = () => {
                       color="primary"
                       type="submit"
                     >
-                      Tambah
+                      Simpan
                     </Button>
                   </ModalFooter>
                 </form>
