@@ -13,7 +13,7 @@
       "email": "epsa@gmail.com",
       "password": "qwerty",
       "confirmPassword": "qwerty",
-      "deskripsi": "Saya adalah enigmanians yang belajar ReactJS\n"
+      "deskripsi": "Saya adalah enigmanians \n"
     }
   ],
   "notes": [
@@ -270,13 +270,33 @@
       ]
     },
     {
-      "id": "b42f",
       "userId": "1",
       "categoryId": "3",
-      "title": "ff",
-      "description": "ff",
-      "images": [],
-      "timestamp": 1723707798157
+      "title": "mantapp",
+      "description": "keren",
+      "images": [
+        {
+          "data_url": "http://localhost:5173/uploads/1723715779193.jpg"
+        }
+      ],
+      "timestamp": 1723715779221,
+      "id": "b42f"
+    },
+    {
+      "id": "6caf",
+      "userId": "1",
+      "categoryId": "2",
+      "title": "Contoh Soal dari Teorema Dasar Kalkulus II",
+      "description": "Teorema Dasar Kalkulus ??? Apa sih itu ?\n\nDulu, untuk menyelesaikan persamaan integral tentu orang-orang menggunakan sebuah cara yang disebut dengan Jumlah Riemann. Setelah bertahun – tahun kemudian, para ilmuwan seperti Newton dan Leibniz mengaji lebih dalam mengenai kemiringan garis singgung dan luas daerah kurva. Mereka memahami dan memanfaatkan hubungan antara anti-turunan dengan integral tentu. Hubungan inilah yang disebut dengan Teorema Dasar Kalkulus Pertama.\n\nTeorema dasar kalkulus menjelaskan tentang hubungan antara dua operasi pusat kalkulus , yaitu diferensiasi dan integrasi. Sesungguhnya diferensiasi dengan integrasi merupakan dua opeasi inverse seperti penjumlahan dengan pengurangan atau pembagian dengan perkalian. Teorema Dasar Kalkulus digunakan untuk membantu menyelesaikan proses pengintegralan suatu fungsi. Teorema dasar kalkulus ada dua, pertama disebut dengan Teorema Dasar Kalkulus I dan yang kedua disebut dengan Teorema Dasar Kalkulus II.dan sekrang aku share contoh soal dari Teorema Dasar Kalkulus II",
+      "images": [
+        {
+          "data_url": "http://localhost:5173/uploads/1723711752094.jpg"
+        },
+        {
+          "data_url": "http://localhost:5173/uploads/1723711752096.jpg"
+        }
+      ],
+      "timestamp": 1723711752124
     }
   ],
   "categories": [
