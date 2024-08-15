@@ -1,0 +1,309 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "nama": "octa",
+      "email": "adiputraoctavan@gmail.com",
+      "password": "123456",
+      "confirmPassword": "123456"
+    },
+    {
+      "id": "ed0e",
+      "nama": "Epsa",
+      "email": "epsa@gmail.com",
+      "password": "qwerty",
+      "confirmPassword": "qwerty",
+      "deskripsi": "Saya adalah enigmanians yang belajar ReactJS\n"
+    }
+  ],
+  "notes": [
+    {
+      "id": "3af7",
+      "userId": "1",
+      "categoryId": "2",
+      "title": "qq",
+      "description": "qqq",
+      "images": [
+        "http://localhost:5173/uploads/1723599029558.jpeg"
+      ],
+      "timestamp": 1723599029569
+    },
+    {
+      "id": "28b3",
+      "userId": "1",
+      "categoryId": "3",
+      "title": "qqq",
+      "description": "qqq",
+      "images": [
+        "http://localhost:5173/uploads/1723599885225.jpeg"
+      ],
+      "timestamp": 1723599885234
+    },
+    {
+      "userId": "1",
+      "categoryId": "2",
+      "title": "swsw",
+      "description": "wsws",
+      "images": [
+        {
+          "data_url": "http://localhost:5173/uploads/1723655720159.jpg"
+        }
+      ],
+      "timestamp": 1723655720169,
+      "id": "23af",
+      "comments": [
+        {
+          "id": 1,
+          "userId": "1",
+          "username": "octa",
+          "komentar": "catatan nya mantap sangat membantu\n"
+        }
+      ]
+    },
+    {
+      "id": "c849",
+      "userId": "1",
+      "categoryId": "2",
+      "title": "tes up",
+      "description": "wswsw",
+      "images": [
+        "http://localhost:5173/uploads/1723601653181.jpeg",
+        "http://localhost:5173/uploads/1723601653186.jpeg"
+      ],
+      "timestamp": 1723601653198
+    },
+    {
+      "id": "f120",
+      "userId": "1",
+      "categoryId": "2",
+      "title": "qq",
+      "description": "qq",
+      "images": [
+        "http://localhost:5173/uploads/1723602134790.jpeg"
+      ],
+      "timestamp": 1723602134800
+    },
+    {
+      "id": "1045",
+      "userId": "1",
+      "categoryId": "1",
+      "title": "qq",
+      "description": "qq",
+      "images": [
+        "http://localhost:5173/uploads/1723602169568.jpeg"
+      ],
+      "timestamp": 1723602169580,
+      "comments": [
+        {
+          "id": 1,
+          "userId": "1",
+          "username": "octa",
+          "komentar": "qq"
+        }
+      ]
+    },
+    {
+      "id": "a31d",
+      "userId": "1",
+      "categoryId": "1",
+      "title": "qq",
+      "description": "qq",
+      "images": [
+        "http://localhost:5173/uploads/1723602495045.jpeg"
+      ],
+      "timestamp": 1723602495061
+    },
+    {
+      "id": "f5af",
+      "userId": "1",
+      "categoryId": "1",
+      "title": "wsws",
+      "description": "wsws",
+      "images": [
+        "http://localhost:5173/uploads/1723602666788.jpg"
+      ],
+      "timestamp": 1723602666852
+    },
+    {
+      "id": "7e22",
+      "userId": "1",
+      "categoryId": "2",
+      "title": "sws",
+      "description": "wswsw",
+      "images": [
+        "http://localhost:5173/uploads/1723604386871.jpg"
+      ],
+      "timestamp": 1723604386898
+    },
+    {
+      "id": "75eb",
+      "userId": "1",
+      "categoryId": "2",
+      "title": "sss",
+      "description": "ss",
+      "images": [
+        "http://localhost:5173/uploads/1723604559204.jpg"
+      ],
+      "timestamp": 1723604559226
+    },
+    {
+      "id": "d865",
+      "userId": "1",
+      "categoryId": "2",
+      "title": "aaa",
+      "description": "aa",
+      "images": [
+        "http://localhost:5173/uploads/1723604572173.jpg"
+      ],
+      "timestamp": 1723604572194
+    },
+    {
+      "id": "9269",
+      "userId": "1",
+      "categoryId": "1",
+      "title": "aa",
+      "description": "aa",
+      "images": [
+        "http://localhost:5173/uploads/1723604580111.jpg"
+      ],
+      "timestamp": 1723604580129
+    },
+    {
+      "id": "cfb6",
+      "userId": "1",
+      "categoryId": "1",
+      "title": "wsws",
+      "description": "wswsw",
+      "images": [
+        "http://localhost:5173/uploads/1723604636761.jpg"
+      ],
+      "timestamp": 1723604636789
+    },
+    {
+      "id": "65c9",
+      "userId": "1",
+      "categoryId": "2",
+      "title": "aaa",
+      "description": "aa",
+      "images": [
+        "http://localhost:5173/uploads/1723604682820.jpg"
+      ],
+      "timestamp": 1723604682844
+    },
+    {
+      "userId": "1",
+      "categoryId": "1",
+      "title": "makhluk Hidup",
+      "description": "Makhluk adalah sejenis hewan, tumbuhan dan lain lain dan kadjkajkdas",
+      "images": [
+        {
+          "data_url": "http://localhost:5173/uploads/1723656272530.jpg"
+        }
+      ],
+      "timestamp": 1723656308548,
+      "id": "17db"
+    },
+    {
+      "id": "b5f4",
+      "userId": "1",
+      "categoryId": "5",
+      "title": "Penyakit Kulit",
+      "description": "aksjkajsasalkjskajskajsjaisjiajsiajisjaisjaisjiajsiasa",
+      "images": [
+        {
+          "data_url": "http://localhost:5173/uploads/1723660315275.jpg"
+        },
+        {
+          "data_url": "http://localhost:5173/uploads/1723660315275.jpg"
+        }
+      ],
+      "timestamp": 1723660315286,
+      "comments": [
+        {
+          "id": 1,
+          "userId": "1",
+          "username": "octa",
+          "komentar": "AHGSHAGHSHA\n"
+        },
+        {
+          "id": 2,
+          "userId": "1",
+          "username": "octa",
+          "komentar": "pucuk ubi pucuk kangkung, banyak bunyi pencah muncung"
+        }
+      ]
+    },
+    {
+      "userId": "1",
+      "categoryId": "4",
+      "title": "Jaringan dan Kmunikasi",
+      "description": "ksjhdhsjhdhsuhduhushudhushudhushduhsud",
+      "images": [
+        {
+          "data_url": "http://localhost:5173/uploads/1723673119798.jpg"
+        },
+        {
+          "data_url": "http://localhost:5173/uploads/1723673119835.jpg"
+        }
+      ],
+      "timestamp": 1723673149192,
+      "id": "8d7a",
+      "comments": [
+        {
+          "id": 1,
+          "userId": "1",
+          "username": "octa",
+          "komentar": "Catatan kuliah yang sangat membantu\n"
+        },
+        {
+          "id": 2,
+          "userId": "1",
+          "username": "octa",
+          "komentar": "wkwkwkwkwkwk"
+        },
+        {
+          "id": 3,
+          "userId": "1",
+          "username": "octa",
+          "komentar": "hihihihii"
+        }
+      ]
+    },
+    {
+      "id": "b42f",
+      "userId": "1",
+      "categoryId": "3",
+      "title": "ff",
+      "description": "ff",
+      "images": [],
+      "timestamp": 1723707798157
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Ilmu Pengetahuan Alam",
+      "img": "https://img.freepik.com/free-vector/flat-biotechnology-concept_23-2148906613.jpg?t=st=1723190354~exp=1723193954~hmac=419f70ee84e7ef9542dbacb747cf827f60c6e654f912bc592d4cfb883d618a1c&w=740"
+    },
+    {
+      "id": "2",
+      "name": "Matematika",
+      "img": "https://img.freepik.com/free-vector/isometric-maths-material-background_23-2148148447.jpg?t=st=1723190838~exp=1723194438~hmac=78da4f2aceb07509c7fdb07a6070fad1ed3438401c3272e748727f8885bbbde1&w=740"
+    },
+    {
+      "id": "3",
+      "name": "Teknik",
+      "img": "https://img.freepik.com/free-vector/engineering-background-design_1300-11.jpg?t=st=1723192552~exp=1723196152~hmac=21f4bd16e37e935ef3f7ba32a84020ea64579a5ef75a62b6fda0e48daf69e86a&w=740"
+    },
+    {
+      "id": "4",
+      "name": "Komputer & Teknologi Informasi",
+      "img": "https://img.freepik.com/free-vector/construction-background-design_1283-9.jpg?t=st=1723192472~exp=1723196072~hmac=b10ba3e42e8cff355ce577218b001759819c4fc841f4d4bc960bcb9dc232fe25&w=740"
+    },
+    {
+      "id": "5",
+      "name": "Ilmu Kesehatan",
+      "img": "https://img.freepik.com/free-vector/science-concept-with-microscope_23-2148539650.jpg?t=st=1723192740~exp=1723196340~hmac=4285f2c32cf4254aa650e87451fe308fd42c2e6f9a2e586e8d8846bd890f4938&w=740"
+    }
+  ]
+}
