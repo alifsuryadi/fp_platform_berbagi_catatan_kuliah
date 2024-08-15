@@ -2,7 +2,7 @@
   "users": [
     {
       "id": "ca40",
-      "nama": "octa",
+      "nama": "Octa",
       "email": "adiputraoctavani@gmail.com",
       "password": "654321",
       "confirmPassword": "654321",
@@ -15,6 +15,14 @@
       "password": "qwerty",
       "confirmPassword": "qwerty",
       "deskripsi": "Saya adalah enigmanians yang belajar ReactJS\n"
+    },
+    {
+      "id": "5c65",
+      "nama": "Admin",
+      "email": "admin@gmail.com",
+      "password": "123456",
+      "confirmPassword": "123456",
+      "deskripsi": ""
     }
   ],
   "categories": [

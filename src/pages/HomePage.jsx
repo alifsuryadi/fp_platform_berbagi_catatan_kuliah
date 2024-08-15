@@ -1,14 +1,6 @@
-import { React, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import NavigationBar from "../components/NavigationBar";
-import {
-  Card,
-  Input,
-  CardFooter,
-  Image,
-  Button,
-  CardBody,
-  Navbar,
-} from "@nextui-org/react";
+import { Card, CardFooter, Image, CardBody } from "@nextui-org/react";
 import { IconSearch } from "../icons/icons";
 import FooterBar from "../components/FooterBar";
 import withAuthenticate from "../hoc/withAuthenticate";
@@ -38,10 +30,7 @@ const HomePage = () => {
 
   return (
     <>
-      <NavigationBar
-        mail={mail}
-        nav="homepage"
-      />
+      <NavigationBar mail={mail} nav="homepage" />
       <div className="md:px-[128px] px-5">
         <div className="mt-5 mb-3">
           <div className="flex flex-col ">
