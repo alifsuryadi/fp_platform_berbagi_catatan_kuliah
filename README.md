@@ -23,6 +23,8 @@
 - [Usage](#usage)
 - [Running Tests](#running-tests)
 - [File and Folder Structure](#file-and-folder-structure)
+- [Entity-Relationship Diagram (ERD)](#entity-relationship-diagram-erd)
+- [Overview](#overview)
 - [Contributing](#contributing)
 <!-- - [License](#license) -->
 
@@ -58,13 +60,21 @@ To get started with NoteKuliah, follow these steps:
    cd fp_platform_berbagi_catatan_kuliah
    ```
 
-3. **Install the dependencies:**
+3. **Create a .env file:**
+
+   ```bash
+   cp .env.example .env
+   ```
+
+   > Update the `VITE_API_URL` in .env to point to your API base URL.
+
+4. **Install the dependencies:**
 
    ```bash
    npm install
    ```
 
-4. **Start the development server:**
+5. **Start the development server:**
 
    ```bash
    npm run dev
@@ -83,12 +93,14 @@ To get started with NoteKuliah, follow these steps:
 
    > This will start the JSON server at http://localhost:3000/.
 
-2. **Running the Node.js server with Nodemon:**
+2. **Running the Node.js server with Node.js:**
    To run the Node.js server with automatic restarts on file changes:
 
    ```bash
    node server.js
    ```
+
+   > This will start the Node.js server.
 
 ## Running Tests
 
@@ -124,6 +136,22 @@ npx vitest
 | `server.js`                         | Node.js server script.                      |
 | `package.json`                      | Project dependencies and scripts.           |
 | `README.md`                         | Project documentation.                      |
+
+## Entity-Relationship Diagram (ERD)
+
+The ERD for NoteKuliah is as follows:
+
+![ERD NOTEKULIAH](docs-assets/erd-notekuliah.gif)
+
+## Overview
+
+- Landing Page
+  ![LANDING PAGE](docs-assets/landing-page.gif)
+
+- Notes
+  ![NOTES](docs-assets/home-page.gif)
+- Management Notes
+  ![MANAGEMENT NOTES](docs-assets/management-notes.gif)
 
 ## Contributing
 
