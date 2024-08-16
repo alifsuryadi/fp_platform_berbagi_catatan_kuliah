@@ -1,10 +1,13 @@
-import { Button } from "@nextui-org/react";
+// App.jsx
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import AppRoutes from "./routes/Routes";
 
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold ">Final Project</h1>
-      <Button color="primary">Click Me</Button>
+      <ToastContainer />
+      <AppRoutes />
     </>
   );
 }

@@ -1,0 +1,336 @@
+{
+  "users": [
+    {
+      "id": "ca40",
+      "nama": "Octa",
+      "email": "adiputraoctavani@gmail.com",
+      "password": "654321",
+      "confirmPassword": "654321",
+      "deskripsi": "lorem ipsum dolor sit amet"
+    },
+    {
+      "id": "ed0e",
+      "nama": "Epsa",
+      "email": "epsa@gmail.com",
+      "password": "qwerty",
+      "confirmPassword": "qwerty",
+      "deskripsi": "Saya adalah enigmanians yang belajar ReactJS\n"
+    },
+    {
+      "id": "5c65",
+      "nama": "Admin",
+      "email": "admin@gmail.com",
+      "password": "123456",
+      "confirmPassword": "123456",
+      "deskripsi": ""
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Ilmu Pengetahuan Alam",
+      "img": "https://img.freepik.com/free-vector/flat-biotechnology-concept_23-2148906613.jpg?t=st=1723190354~exp=1723193954~hmac=419f70ee84e7ef9542dbacb747cf827f60c6e654f912bc592d4cfb883d618a1c&w=740"
+    },
+    {
+      "id": "2",
+      "name": "Matematika",
+      "img": "https://img.freepik.com/free-vector/isometric-maths-material-background_23-2148148447.jpg?t=st=1723190838~exp=1723194438~hmac=78da4f2aceb07509c7fdb07a6070fad1ed3438401c3272e748727f8885bbbde1&w=740"
+    },
+    {
+      "id": "3",
+      "name": "Teknik",
+      "img": "https://img.freepik.com/free-vector/engineering-background-design_1300-11.jpg?t=st=1723192552~exp=1723196152~hmac=21f4bd16e37e935ef3f7ba32a84020ea64579a5ef75a62b6fda0e48daf69e86a&w=740"
+    },
+    {
+      "id": "4",
+      "name": "Komputer & Teknologi Informasi",
+      "img": "https://img.freepik.com/free-vector/construction-background-design_1283-9.jpg?t=st=1723192472~exp=1723196072~hmac=b10ba3e42e8cff355ce577218b001759819c4fc841f4d4bc960bcb9dc232fe25&w=740"
+    },
+    {
+      "id": "5",
+      "name": "Ilmu Kesehatan",
+      "img": "https://img.freepik.com/free-vector/science-concept-with-microscope_23-2148539650.jpg?t=st=1723192740~exp=1723196340~hmac=4285f2c32cf4254aa650e87451fe308fd42c2e6f9a2e586e8d8846bd890f4938&w=740"
+    }
+  ],
+  "notes": [
+    {
+      "userId": "ca40",
+      "categoryId": "5",
+      "title": "Anatomi Manusia",
+      "description": "Diagram anatomi manusia\n\n1. Kepala\n2. Wajah:Dahi, Mata, Telinga, Hidung, Mulut, Lidah, Gigi, Rahang, Pipi, Dagu\n3. Leher, Tenggorokan, Jakun\n4. Bahu\n5. Dada, Buah dada, Tulang rusuk\n6. Pusar\n7. Perut, Pinggul\n8. Organ seks\n9. Penis/Skrotum atau Vagina/Klitoris\nKaki:\n\n10. Paha\n11. Lutut\n12. Betis, tulang kering\n13. Pergelangan kaki\n14. Telapak kaki, Tumit, Jari kaki (Ibu jari, telunjuk, tengah, manis, kelingking)\nTangan:\n\n15. Lengan\n16. Siku/sikut\n17. Pergelangan tangan\n18. Telapak tangan, Jari tangan (Ibu jari, telunjuk, tengah, manis, kelingking)\n19. Tulang belakang, Kulit, Rektum, Anus, Pantat",
+      "images": [
+        {
+          "data_url": "http://localhost:5173/uploads/1723727344053.jpg"
+        }
+      ],
+      "timestamp": 1723727344061,
+      "id": "215c",
+      "comments": [
+        {
+          "id": 1,
+          "userId": "ed0e",
+          "username": "Epsa",
+          "komentar": "Sangat Membantu sekali!"
+        }
+      ]
+    },
+    {
+      "userId": "ca40",
+      "categoryId": "4",
+      "title": "Jaringan Komputer",
+      "description": "Sejarah jejaring komputer bermula dari lahirnya konsep jejaring komputer pada tahun 1940-an di Amerika yang digagas oleh sebuah proyek pengembangan komputer MODEL I di laboratorium Bell dan group riset Universitas Harvard yang dipimpin profesor Howard Aiken. Pada mulanya proyek tersebut hanyalah ingin memanfaatkan sebuah perangkat komputer yang harus dipakai bersama. Untuk mengerjakan beberapa proses tanpa banyak membuang waktu kosong dibuatlah proses beruntun (Batch Processing), sehingga beberapa program bisa dijalankan dalam sebuah komputer dengan kaidah antrean.\n\nKemudian pada tahun 1950-an ketika jenis komputer mulai berkembang sampai terciptanya super komputer, maka sebuah komputer harus melayani beberapa tempat yang tersedia (terminal), untuk itu ditemukan konsep distribusi proses berdasarkan waktu yang dikenal dengan nama TSS (Time Sharing System). Maka untuk pertama kalinya bentuk jejaring (network) komputer diterapkan. Pada sistem TSS beberapa terminal terhubung secara seri ke sebuah komputer atau perangkat lainnya yang terhubung dalam suatu jejaring (host) komputer. Dalam proses TSS mulai terlihat perpaduan teknologi komputer dan teknologi telekomunikasi yang pada awalnya berkembang sendiri-sendiri. Departemen Pertahanan Amerika, U.S. Defense Advanced Research Projects Agency (DARPA) memutuskan untuk mengadakan riset yang bertujuan untuk menghubungkan sejumlah komputer sehingga membentuk jejaring organik pada tahun 1969. Program penelitian ini dikenal dengan nama ARPANET. Pada tahun 1970, sudah lebih dari 10 komputer yang berhasil dihubungkan satu sama lain sehingga mereka bisa saling berkomunikasi dan membentuk sebuah jejaring. Dan pada tahun 1970 itu juga setelah beban pekerjaan bertambah banyak dan harga perangkat komputer besar mulai terasa sangat mahal, maka mulailah digunakan konsep proses pengagihan (Distributed Processing). Dalam proses ini beberapa host komputer mengerjakan sebuah pekerjaan besar secara paralel untuk melayani beberapa terminal yang tersambung secara seri di setiap host komputer. Dalam proses pengagihan sudah mutlak diperlukan perpaduan yang mendalam antara teknologi komputer dan telekomunikasi, karena selain proses yang harus didistribusikan, semua host komputer wajib melayani terminal-terminalnya dalam satu perintah dari komputer pusat.",
+      "images": [
+        {
+          "data_url": "http://localhost:5173/uploads/1723728438932.jpg"
+        }
+      ],
+      "timestamp": 1723728438937,
+      "id": "1e2d"
+    },
+    {
+      "userId": "ca40",
+      "categoryId": "5",
+      "title": "Epidemiologi",
+      "description": "Epidemiologi adalah cabang ilmu biologi yang mempelajari dan menganalisis tentang penyebaran, pola, dan penentu kondisi kesehatan dan penyakit pada populasi tertentu.\n\nEpidemiologi merupakan landasan bagi kesehatan masyarakat, yang membentuk pengambilan keputusan dalam kebijakan publik dan praktik berbasis bukti dengan mengidentifikasi faktor risiko penyakit dan mengidentifikasi tujuan pencegahan penyakit. Ahli epidemiologi membantu dengan desain studi, pengumpulan dan analisis statistik data, membuat interpretasi, dan menyebarkan temuannya (termasuk sesekali tinjauan sejawat dan tinjauan sistematis). Epidemiologi telah membantu mengembangkan metodologi yang digunakan dalam penelitian klinis, penelitian kesehatan masyarakat, dan, pada tingkat lebih rendah, penelitian dasar dalam biologi.\n\nBidang utama studi epidemiologi meliputi penyebab penyakit, penularan penyakit, penyelidikan wabah, surveilans penyakit, epidemiologi lingkungan, epidemiologi forensik, epidemiologi pekerjaan, penapisan, pemantauan hayati, dan perbandingan efek pengobatan seperti dalam uji klinis. Ahli epidemiologi mengandalkan disiplin ilmu lain seperti biologi untuk lebih memahami proses penyakit, statistika untuk memanfaatkan data secara efisien dan menarik kesimpulan yang tepat, ilmu sosial untuk lebih memahami penyebab langsung dan terdekat, dan rekayasa untuk penilaian paparan.\n\nEpidemiologi, secara harfiah berarti \"studi tentang apa yang ada pada orang-orang\", berasal dari bahasa Yunani epi, yang berarti 'di antara', dan demos, yang berarti 'orang, distrik', dan logos, yang berarti 'studi, kata, wacana', sehingga menunjukkan bahwa epidemiologi hanya berlaku untuk populasi manusia. Namun, istilah ini banyak digunakan dalam studi populasi hewan (epidemiologi veteriner), meskipun istilah \"epizoologi\" tersedia, dan juga telah diterapkan pada studi populasi tumbuhan (epidemiologi penyakit tumbuhan).\n\nPerbedaan antara \"epidemi\" dan \"endemi\" pertama kali diungkapkan oleh Hippokrates, untuk membedakan antara penyakit yang \"mengunjungi\" suatu populasi (epidemi) dengan penyakit yang \"tinggal di dalam\" suatu populasi (endemi). Istilah \"epidemiologi\" tampaknya pertama kali digunakan untuk menggambarkan studi epidemi pada tahun 1802 oleh dokter Spanyol Villalba dalam karyanya, Epidemiología Española. Ahli epidemiologi juga mempelajari interaksi penyakit dalam suatu populasi, suatu kondisi yang dikenal sebagai sindemik.\n\nIstilah epidemiologi sekarang banyak digunakan untuk menguraikan deskripsi dan penyebab berbagai kondisi kesehatan, tidak hanya penyakit epidemi, tetapi penyakit secara umum, dan bahkan banyak kondisi nonpenyakit terkait kesehatan, seperti tekanan darah tinggi, depresi, dan kegemukan. Oleh karena itu, epidemiologi ini didasarkan pada bagaimana pola penyakit menyebabkan perubahan fungsi tubuh manusia.",
+      "images": [
+        {
+          "data_url": "http://localhost:5173/uploads/1723727645757.jpg"
+        }
+      ],
+      "timestamp": 1723727692734,
+      "id": "2366"
+    },
+    {
+      "userId": "ed0e",
+      "categoryId": "4",
+      "title": "Keamanan Informasi",
+      "description": "Pengertian dari Keamanan Informasi",
+      "images": [
+        {
+          "data_url": "http://localhost:5173/uploads/1723726779350.jpg"
+        },
+        {
+          "data_url": "http://localhost:5173/uploads/1723726779378.jpg"
+        },
+        {
+          "data_url": "http://localhost:5173/uploads/1723726779383.jpg"
+        },
+        {
+          "data_url": "http://localhost:5173/uploads/1723726779395.jpg"
+        }
+      ],
+      "timestamp": 1723726779403,
+      "id": "156f"
+    },
+    {
+      "userId": "ed0e",
+      "categoryId": "1",
+      "title": "Metabolisme Energi",
+      "description": "Pemahaman tentang proses metabolisme energi pada makhluk hidup.",
+      "images": [
+        {
+          "data_url": "http://localhost:5173/uploads/1723726887623.jpg"
+        }
+      ],
+      "timestamp": 1723726887630,
+      "id": "0da1"
+    },
+    {
+      "userId": "ed0e",
+      "categoryId": "1",
+      "title": "Fotosintesis pada Tumbuhan",
+      "description": "fotosintesis adalah proses pembentukan karbohidrat dari karbon dioksida (CO2) dan air (H2O) dengan bantuan sinar matahari.\n\nMaksudnya, tumbuhan menggunakan karbon dioksida dan air untuk menghasilkan gula dan oksigen yang diperlukan sebagai makanannya. Nah, energi untuk menjalankan proses ini berasal dari fotosintesis.\n\nSelain itu, kemampuan tumbuhan berfotosintesis juga didukung oleh banyaknya klorofil atau zat hijau daun. Sebab, proses fotosintesis pada tumbuhan terjadi di daun.\n\nDari proses tersebut, tumbuhan akan mengubah karbohidrat menjadi protein, lemak, vitamin atau senyawa lainnya.\n\nProses fotosintesis ini melibatkan banyak reaksi kimia yang kompleks. Namun secara sederhana, reaksi kimia dari proses fotosintesis dinyatakan sebagai berikut.\n\nReaksi kimia proses fotosintesis:\n\n6CO2 + 6H2O + Cahaya Matahari --> C6H12O6 + 6O2\nKarbon dioksida Air Klorofil Glukosa Oksigen\nSyarat Fotosintesis\nDari reaksi kimia yang terjadi pada proses fotosintesis tersebut, maka dapat diketahui syarat yang mendukung terjadinya proses fotosintesis.\n\n1. Karbon dioksida yang diambil oleh tumbuhan dari udara bebas melalui stomata atau mulut daun\n2. Air, diambil dari dalam tanah oleh akar dan diangkut ke daun melalui pembuluh kayu\n3. Cahaya matahari\n4. Klorofil, sebagai penerima atau penangkap energi dari cahaya matahari untuk melangsungkan proses fotosintesis.\n\n",
+      "images": [
+        {
+          "data_url": "http://localhost:5173/uploads/1723726371391.jpg"
+        }
+      ],
+      "timestamp": 1723726371408,
+      "id": "098c"
+    },
+    {
+      "userId": "ca40",
+      "categoryId": "3",
+      "title": "Termodinamika",
+      "description": "Termodinamika merupakan salah satu cabang fisika yang membahas mengenai perubahan energi panas menjadi bentuk energi lain. Hukum pertama termodinamika dan hukum termodinamika kedua menjadi acuan dalam membahas mengenai perubahan energi. Pengukuran di dalam termodinamika tidak dinyatakan dengan besaran mikroskopis melainkan dengan besaran makroskopis. Termodinamika membahas mengenai hubungan antara energi, panas, kerja, entropi dan kespontanan proses. Termodinamika berhubungan dekat dengan mekanika statistika di mana hubungan termodinamika berasal. Asal kata termodinamika adalah dari dua kata bahasa Yunani yaitu thermos yang artinya panas dan dynamic yang artinya perubahan.",
+      "images": [
+        {
+          "data_url": "http://localhost:5173/uploads/1723728677633.jpg"
+        }
+      ],
+      "timestamp": 1723728677646,
+      "id": "073d"
+    },
+    {
+      "userId": "ed0e",
+      "categoryId": "1",
+      "title": "Ekosistem Laut",
+      "description": "Pengamatan terhadap ekosistem laut dan keragaman hayatinya.\nEkosistem air laut biasanya juga dinamakan sebagai ekosistem bahari. Ekosistem air laut merupakan ekosistem paling luas di permukaan bumi. Lebih dari dua pertiga bagian bumi ini merupakan ekosistem laut. Ekosistem air laut ditandai oleh salinitas (kadar garam) yang tinggi dengan ion Cl dapat mencapai 55% terutama di daerah laut tropik, karena suhunya tinggi (sekitar 25 °C) dan penguapan besar. Pada daerah dingin, suhu air laut merata sehingga air dapat bercampur, hal ini mengakibatkan daerah permukaan laut tetap subur dan banyak plankton serta ikan. Gerakan air dari pantai ke tengah menyebabkan air bagian atas turun ke bawah dan sebaliknya, sehingga memungkinkan terbentuknya rantai makanan yang berlangsung baik.",
+      "images": [
+        {
+          "data_url": "http://localhost:5173/uploads/1723726036750.jpg"
+        }
+      ],
+      "timestamp": 1723726103479,
+      "id": "042d"
+    },
+    {
+      "userId": "ca40",
+      "categoryId": "5",
+      "title": "Patologi Klinis",
+      "description": "Patologi klinik adalah bagian dari ilmu kedokteran klinik yang ikut mempelajari masalah diagnostik dan terapi, ikut meneliti wujud dan perjalanan penyakit pada seorang penderita atau bahan yang berasal dari seorang penderita. Untuk itu patologi klinik merupakan pemeriksaan morfologis, mikroskopis, kimia, mikrobiologis, serologis, hematologis, imunologis, parasitologis, dan pemeriksaan laboratorium lainnya. Patologi klinik merupakan cabang dari ilmu patologi, berbeda dari cabang ilmu patologi lainnya, yaitu patologi anatomi, yang mempelajari mengenai anatomi jaringan yang terinfeksi.\n\nIlmu patologi klinik menekankan penelitiannya pada diagnosis, pemulihan, dan pencegahan berbagai jenis penyakit. Secara umum, pemeriksaan suatu penyakit dideteksi berdasarakan perubahan berbagai jenis proses biokimia yang berlangsung di dalam tubuh pasien. Sampel yang umumnya digunakan untuk pemeriksaan di laboratorium adalah cairan tubuh seperti urine dan darah. Patologi klinik dapat digunakan untuk pemeriksaan berbagai jenis penyakit hati terinduksi pemakaian obat tertentu, HIV, kanker, deteksi kelainan pada paru-paru, dan gangguan metabolisme ion besi di dalam tubuh.Pemeriksaan tersebut pada umumnya melibatkan serangkaian tes berkelanjutan, seperti analisis mikroskopis, uji imunologis, hematologis, dan radiologis sehingga memakan waktu yang cukup lama.",
+      "images": [
+        {
+          "data_url": "http://localhost:5173/uploads/1723728573226.jpg"
+        }
+      ],
+      "timestamp": 1723728573248,
+      "id": "1f24"
+    },
+    {
+      "userId": "ca40",
+      "categoryId": "1",
+      "title": "Metabolisme Energi",
+      "description": "Metabolisme (bahasa Yunani: μεταβολισμος, metabolismos, 'perubahan') adalah seluruh reaksi biokimia yang bertujuan untuk mempertahankan kehidupan pada suatu organisme. Proses ini memungkinkan organisme untuk tumbuh, bereproduksi, mempertahankan struktur, dan merespons lingkungannya. Metabolisme juga dapat diartikan sebagai semua reaksi kimia yang terjadi pada organisme hidup, di antaranya pencernaan dan perpindahan zat di dalam sel dan di antara sel yang berbeda. Di dalam sel, reaksi kimia terjadi secara berantai sehingga produk yang dihasilkan oleh suatu reaksi akan memasuki reaksi lain. Reaksi-reaksi yang saling terhubung ini disebut metabolisme perantara atau metabolisme intermediat dan setiap reaksinya dikatalisis oleh enzim.\n\nSecara umum, metabolisme memiliki dua arah lintasan reaksi kimia organik, yaitu katabolisme (reaksi untuk menghasilkan energi dengan cara mengurai senyawa organik), seperti pemecahan glukosa menjadi asam piruvat oleh proses respirasi seluler dan anabolisme (reaksi yang memerlukan energi untuk menyusun [sintesis] senyawa organik seperti protein, karbohidrat, lipid, dan asam nukleat dari molekul-molekul yang diperlukan). Tiga tujuan utama metabolisme yaitu mengonversi makanan menjadi energi untuk menjalankan proses pada tingkat seluler, mengonversi makanan menjadi bahan baku penyusun protein, lipid, asam nukleat, dan beberapa jenis karbohidrat, serta mengeliminasi zat sisa metabolisme.",
+      "images": [
+        {
+          "data_url": "http://localhost:5173/uploads/1723728939427.jpg"
+        },
+        {
+          "data_url": "http://localhost:5173/uploads/1723728939427.jpg"
+        }
+      ],
+      "timestamp": 1723728939434,
+      "id": "18b5"
+    },
+    {
+      "id": "1020",
+      "userId": "ed0e",
+      "categoryId": "3",
+      "title": "Kinematika",
+      "description": "Studi tentang gerak benda dan kinematika.",
+      "images": [],
+      "timestamp": 1723619654000
+    },
+    {
+      "userId": "ca40",
+      "categoryId": "2",
+      "title": "Teori Angka",
+      "description": "Penemuan sejarah paling awal yang bersifat aritmatika adalah sebuah fragmen tabel: lempengan tanah liat pecah Plimpton 322 ( Larsa, Mesopotamia , ca. 1800 SM) berisi daftar \" tripleks Pythagoras \", yaitu bilangan bulat\n(\nA\nBahasa Indonesia:\nB\nBahasa Indonesia:\nC\n)\n{\\gaya tampilan (a,b,c)}seperti yang\nA\n2\n+\nB\n2\n=\nC\n2\n{\\gaya tampilan a^{2}+b^{2}=c^{2}}. Tiga angka tersebut terlalu banyak dan terlalu besar untuk diperoleh dengan kekerasan . Judul pada kolom pertama berbunyi: \"Takiltum diagonal yang telah dikurangi sehingga lebarnya...\" \n\nTata letak tabel ini menunjukkan  bahwa tabel ini dibuat dengan cara yang, dalam bahasa modern, disebut sebagai identitas",
+      "images": [
+        {
+          "data_url": "http://localhost:5173/uploads/1723729105866.jpg"
+        }
+      ],
+      "timestamp": 1723729105871,
+      "id": "10a0"
+    },
+    {
+      "userId": "ed0e",
+      "categoryId": "5",
+      "title": "Farmakologi",
+      "description": "Farmakologi adalah Istilah yang berasal dari bahasa Yunani yaitu Farmakos yang memiliki arti obat dan Logos yang artinya ilmu. Jadi secara harfiah, farmakologi dapat ditafsirkan sebagai suatu ilmu yang mempelajari obat dan cara kerjanya pada sistem biologis. Terutama tentang obat yang berkaitan dengan respons bagian-bagian tubuh terhadap sifat obat, pengaruh sifat fisika-kimiawinya terhadap tubuh, kegunaan obat bagi kesembuhan dan nasib yang dialami obat dalam tubuh. Artinya farmakologi ini akan menelaah efek-efek dari senyawa kimia pada jaringan hidup makhluk hidup.\n\nDalam farmakologi sistem hidup itu harus dipengaruhi obat, sehingga memunculkan prinsip dasar agar molekul obat harus bisa mempengaruhi secara kimia pada satu atau lebih isi sel agar dapat menghasilkan respon farmakologik. Molekul-molekul obat harus mendekati molekul-molekul yang membentuk sel dalam jumlah yang cukup untuk menutup rapat sehingga fungsi molekul sel menjadi berubah. Obat-Obat pada zaman dahulu dibuat dari tumbuh-tumbuhan, hewan, dan mineral. Catatan pemakaian obat telah dilakukan sejak 2700 tahun sebelum masehi di Timur tengah dan Tiongkok. Obat-Obat yang sering dipakai pada waktu itu adalah emetik untuk memicu muntah. Pada tahun 1550 sebelum masehi, orang Mesir menuliskan pengamatan empiris ke dalam terapi obat pada Ebers Medical Papyrus. Mereka menyarankan minyak kastroli sebagai laktasif dan candu untuk nyeri. Mereka juga menyarankan pemakaian roti berjamur untuk luka dan memar (3500 tahun sebelum Alexander Flemming menemukan penisilin) Dokter Romawi dan penulis Galen (131 201 sesudah masehil dianggap sebagai orang-orang yang berpengaruh dalam kedokteran dan farmasi selama ratusan tahun. Mereka memulai pemakaian resep secara umum dan menggunakan beberapa campuran untuk mengobati penyakit tertentu.",
+      "images": [
+        {
+          "data_url": "http://localhost:5173/uploads/1723727025763.jpg"
+        }
+      ],
+      "timestamp": 1723727025796,
+      "id": "0735"
+    },
+    {
+      "userId": "ca40",
+      "categoryId": "2",
+      "title": "Geometri Analitik",
+      "description": "Dalam matematika , geometri analitik , yang juga dikenal sebagai geometri koordinat atau geometri Cartesian , adalah studi geometri menggunakan sistem koordinat . Hal ini berbeda dengan geometri sintetis .\n\nGeometri analitik digunakan dalam fisika dan teknik , dan juga dalam penerbangan , peroketan , ilmu antariksa , dan penerbangan antariksa . Geometri analitik merupakan dasar dari sebagian besar bidang geometri modern, termasuk geometri aljabar , diferensial , diskrit , dan komputasional .\n\nBiasanya sistem koordinat Cartesian diterapkan untuk memanipulasi persamaan untuk bidang, garis lurus, dan lingkaran, sering kali dalam dua dan terkadang tiga dimensi. Secara geometris, seseorang mempelajari bidang Euclidean (dua dimensi) dan ruang Euclidean. Seperti yang diajarkan dalam buku-buku sekolah, geometri analitik dapat dijelaskan lebih sederhana: geometri analitik berkaitan dengan pendefinisian dan representasi bentuk geometris dengan cara numerik dan pengambilan informasi numerik dari definisi dan representasi numerik bentuk tersebut. Bahwa aljabar bilangan riil dapat digunakan untuk menghasilkan hasil tentang kontinum linear geometri bergantung pada aksioma Cantor–Dedekind .",
+      "images": [
+        {
+          "data_url": "http://localhost:5173/uploads/1723728870105.jpg"
+        }
+      ],
+      "timestamp": 1723728870117,
+      "id": "20a8"
+    },
+    {
+      "userId": "ca40",
+      "categoryId": "5",
+      "title": "Biostatistika",
+      "description": "Biostatistika (gabungan dari kata biologi dengan statistika; kadang-kadang dirujuk sebagai biometri atau biometrika) adalah penerapan ilmu statistika ke dalam ilmu biologi. Ilmu biostatistika meliputi rancangan percobaan biologi, utamanya dalam bidang Bioteknologi, agrikultur dan kedokteran, pengoleksian data, peringkasan data, dan analisis data penelitian.",
+      "images": [
+        {
+          "data_url": "http://localhost:5173/uploads/1723728735425.jpg"
+        }
+      ],
+      "timestamp": 1723728735432,
+      "id": "23b0"
+    },
+    {
+      "userId": "ca40",
+      "categoryId": "1",
+      "title": "Fotosintesis pada Tumbuhan",
+      "description": "Fotosintesis ( / ˌ f oʊ t ə ˈ s ɪ n θ ə s ɪ s / FOH -tə- SINTH -ə-sis )  adalah sistem proses biologis yang dengannya organisme fotosintetik , seperti kebanyakan tumbuhan, alga , dan sianobakteri , mengubah energi cahaya , biasanya dari sinar matahari, menjadi energi kimia yang diperlukan untuk bahan bakar metabolisme mereka . Fotosintesis biasanya mengacu pada fotosintesis oksigenik , suatu proses yang menghasilkan oksigen.\nOrganisme fotosintetik menyimpan energi kimia yang dihasilkannya dalam senyawa organik intraseluler (senyawa yang mengandung karbon) seperti gula, glikogen , selulosa , dan pati . Untuk menggunakan energi kimia yang tersimpan ini, sel-sel organisme memetabolisme senyawa organik melalui respirasi seluler . Fotosintesis memainkan peran penting dalam memproduksi dan menjaga kandungan oksigen di atmosfer Bumi, dan memasok sebagian besar energi biologis yang diperlukan untuk kehidupan kompleks di Bumi. ",
+      "images": [
+        {
+          "data_url": "http://localhost:5173/uploads/1723728823501.jpg"
+        }
+      ],
+      "timestamp": 1723728823515,
+      "id": "1715"
+    },
+    {
+      "userId": "ca40",
+      "categoryId": "4",
+      "title": "Algoritma Pemorgraman",
+      "description": "Cara Penyajian Algoritma\nSebagai awalan, Anda bisa belajar dua cara penyajian algoritma programming, yaitu:\n\n1. Pseudocode\n\nPseudocode adalah cara penulisan program secara informal dengan kaidah sendiri, daripada menggunakan aturan yang ditetapkan bahasa pemrograman. Tujuannya yaitu agar alur logika yang ditulis lebih mudah dipahami manusia.\n\nDi bawah ini adalah contoh pseudocode untuk menentukan bilangan terbesar dari tiga inputan angka:\n\n2. Flowchart\n\nFlowchart adalah diagram yang menampilkan proses dan langkah pengambilan keputusan dalam suatu program. Tujuan flowchart adalah menyederhanakan rangkaian prosedur serta mengurangi risiko salah tafsir.\n\nSalah satu contoh flowchart dalam programming adalah sebagai berikut, untuk menunjukkan alur kerja program dari awal hingga akhir dalam menghitung luas persegi panjang:",
+      "images": [
+        {
+          "data_url": "http://localhost:5173/uploads/1723729752373.jpg"
+        },
+        {
+          "data_url": "http://localhost:5173/uploads/1723729752373.jpg"
+        }
+      ],
+      "timestamp": 1723729752379,
+      "id": "0941"
+    },
+    {
+      "userId": "ca40",
+      "categoryId": "5",
+      "title": "Sistem Respirasi",
+      "description": "Sistem pernapasan atau sistem respirasi adalah sistem biologis yang terdiri dari organ dan struktur-struktur lain yang digunakan untuk pertukaran gas pada hewan dan tumbuhan. Anatomi dan fisiologi makhluk hidup yang mewujudkan pertukaran gas ini sangat bervariasi, bergantung pada ukuran tubuhnya, lingkungan tempat hidupnya, dan riwayat evolusinya. Pada hewan darat, pernapasan berlangsung pada paru-paru.[1] Pertukaran gas di paru-paru terjadi pada jutaan kantung udara kecil. Pada mamalia dan reptil, kantung udara ini disebut alveolus (bentuk jamak: alveoli), tetapi pada burung dinamakan atria. Kantung udara mikroskopis tersebut sangat kaya akan suplai darah, sehingga udara di dalamnya pun terhubung dengan darah.[2] Kantung udara ini berhubungan dengan lingkungan luar melalui sistem saluran udara berupa tabung berongga. Saluran yang terbesar adalah trakea, yang bercabang di tengah dada menjadi dua bronkus utama. Bronkus memasuki paru-paru, tempat mereka bercabang menjadi bronkus sekunder dan tersier yang rongganya semakin sempit, lalu bercabang menjadi banyak tabung yang lebih kecil, yang dinamakan bronkiolus. Pada burung, bronkiolus disebut parabronki. Pada bronkiolus atau parabronki inilah umumnya terdapat alveoli pada mamalia dan atria pada burung. Udara harus dipompa dari lingkungan luar menuju ke dalam alveoli atau atria melalui proses bernapas yang melibatkan otot-otot pernapasan. Pada sebagian besar ikan dan sejumlah hewan akuatik lainnya, pernapasan berlangsung pada insang, yang merupakan organ eksternal (baik sebagian maupun sepenuhnya), yang terendam dalam lingkungan perairan. Air akan mengalir melewati insang dengan berbagai cara, baik aktif ataupun pasif. Pertukaran gas terjadi di insang yang terdiri dari filamen tipis atau sangat datar, serta lamela yang mempertemukan secara luas jaringan yang sangat tervaskularisasi dengan air. Hewan lain, seperti serangga, memiliki anatomi sistem pernapasan yang sangat sederhana. Pada amfibi, kulit pun berperan penting dalam pertukaran gas. Tumbuhan juga memiliki sistem pernapasan tetapi arah pertukaran gasnya bisa berlawanan jika dibandingkan dengan hewan. Sistem pernapasan pada tumbuhan meliputi stomata, yang ditemukan di berbagai bagian tumbuhan.",
+      "images": [
+        {
+          "data_url": "http://localhost:5173/uploads/1723729429321.jpg"
+        }
+      ],
+      "timestamp": 1723729429330,
+      "id": "1298"
+    },
+    {
+      "userId": "ca40",
+      "categoryId": "2",
+      "title": "Geometri ",
+      "description": "Analisis geometri menggunakan pendekatan analitik.",
+      "images": [
+        {
+          "data_url": "http://localhost:5173/uploads/1723729845836.jpg"
+        }
+      ],
+      "timestamp": 1723729845845,
+      "id": "0421"
+    },
+    {
+      "userId": "ca40",
+      "categoryId": "3",
+      "title": "Statika",
+      "description": "Statika adalah salah satu cabang dari mekanika teknik yang berkaitan dengan analisis gaya-gaya yang bekerja pada suatu sistem yang diam/statis dan setimbang. Gaya-gaya yang dimaksud disini pada umumnya termasuk gaya itu sendiri dan juga momen[1]. Pada statika, sistem struktur diidealisasikan/dianggap sangat kaku sehingga pengaruh dari lendutan tidak diperhatikan. Struktur yang dipelajari juga merupakan gabungan dari komponen-komponen yang menahan gaya desak, tarik, dan/atau momen sehingga dapat mencapai kesetimbangan.\n\nIlmu statika umumnya merupakan salah satu mata kuliah bidang teknik pertama yang diberikan di level universitas. Prinsip-prinsip yang dipelajari dalam statika cukup mendasar dan mudah dipahami, hanya memerlukan sedikit dari hukum-hukum fisika mekanika dan matematika dasar.",
+      "images": [
+        {
+          "data_url": "http://localhost:5173/uploads/1723729558628.jpg"
+        }
+      ],
+      "timestamp": 1723729558634,
+      "id": "20af"
+    }
+  ]
+}
