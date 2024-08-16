@@ -1,10 +1,4 @@
-import {
-  Divider,
-  Link,
-  Navbar,
-  NavbarContent,
-  NavbarItem,
-} from "@nextui-org/react";
+import { Divider, Link } from "@nextui-org/react";
 import React from "react";
 
 const FootLanding = () => {
@@ -25,10 +19,7 @@ const FootLanding = () => {
                 <p className="text-hijau-muda font-bold text-md">
                   Untuk Pemula
                 </p>
-                <Link
-                  className="text-sm text-abu-gelap"
-                  href="/register"
-                >
+                <Link className="text-sm text-abu-gelap" href="/register">
                   Buat akun
                 </Link>
               </div>

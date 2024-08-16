@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useLocation, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import NavigationBar from "../components/NavigationBar";
 import {
   Card,
@@ -21,8 +21,8 @@ const ListAllNotes = () => {
   const [rowsPerPage, setRowsPerPage] = useState(5);
   const [page, setPage] = useState(1);
 
-  const location = useLocation();
-  const categoryId = new URLSearchParams(location.search).get("category");
+  // const location = useLocation();
+  // const categoryId = new URLSearchParams(location.search).get("category");
   const navigate = useNavigate();
 
   const fetchNotes = async () => {
@@ -136,7 +136,7 @@ const ListAllNotes = () => {
 
           <div className="flex flex-col gap-2">
             {items.length > 0 ? (
-              items.map((item, index) => (
+              items.map((item) => (
                 <Card
                   key={item.id}
                   isPressable

@@ -19,7 +19,7 @@ const schema = z.object({
 const LoginPage = () => {
   const isAuth = useSelector((store) => store.authenticated.isAuthenticated);
 
-  const selector = useSelector((store) => store.authenticated);
+  // const selector = useSelector((store) => store.authenticated);
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const [dataForm, setDataForm] = useState({ email: "", password: "" });
@@ -140,10 +140,7 @@ const LoginPage = () => {
               <p className="text-red text-tiny mt-1 ml-1">{errors.password}</p>
             )}
           </div>
-          <Link
-            href="#"
-            className="text-sm mb-4 block text-left"
-          >
+          <Link href="#" className="text-sm mb-4 block text-left">
             Lupa kata sandi?
           </Link>
           <Button
@@ -154,10 +151,7 @@ const LoginPage = () => {
           </Button>
           <p className="text-center">
             Belum punya akun?{" "}
-            <Link
-              className="text-hijau-paling-muda"
-              to="/register"
-            >
+            <Link className="text-hijau-paling-muda" to="/register">
               Daftar
             </Link>
           </p>

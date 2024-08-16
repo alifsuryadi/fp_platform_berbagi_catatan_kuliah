@@ -1,21 +1,8 @@
 import React from "react";
-import {
-  Navbar,
-  NavbarBrand,
-  NavbarContent,
-  NavbarItem,
-  NavbarMenuToggle,
-  NavbarMenu,
-  NavbarMenuItem,
-  Link,
-  Button,
-} from "@nextui-org/react";
-import { IconProfile } from "../icons/icons";
+import { Navbar, NavbarContent, NavbarItem } from "@nextui-org/react";
 
 const FooterBar = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
-
-  const menuItems = ["Catatanku"];
 
   return (
     <Navbar

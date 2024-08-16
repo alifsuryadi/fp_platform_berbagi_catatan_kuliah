@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Button, Input, Textarea } from "@nextui-org/react";
 import { useForm, Controller } from "react-hook-form";
 import { z } from "zod";
@@ -173,10 +173,7 @@ const ProfileSayaPage = () => {
 
             <div className="flex justify-end gap-3">
               <Button onClick={toHomepage}>Tutup</Button>
-              <Button
-                type="submit"
-                className="text-white bg-hijau-muda"
-              >
+              <Button type="submit" className="text-white bg-hijau-muda">
                 Ubah Profil
               </Button>
             </div>

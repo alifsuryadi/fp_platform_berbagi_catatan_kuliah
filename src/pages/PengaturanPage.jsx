@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Input, Divider, Button } from "@nextui-org/react";
 import { useForm, Controller } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
@@ -193,10 +193,7 @@ const PengaturanPage = () => {
 
             <div className="flex justify-end gap-2">
               <Button onClick={toHomepage}>Tutup</Button>
-              <Button
-                type="submit"
-                className="text-white bg-hijau-muda"
-              >
+              <Button type="submit" className="text-white bg-hijau-muda">
                 Ubah Profil
               </Button>
             </div>
