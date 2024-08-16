@@ -1,5 +1,3 @@
-import React from "react";
-
 import Nav from "../components/Nav";
 import { Button, Card, CardBody, CardFooter, Image } from "@nextui-org/react";
 import Hero from "../components/Hero";

@@ -22,5 +22,3 @@ describe("PengaturanPage", () => {
     expect(renderedPengaturanPage).toBeDefined();
   });
 });
-
-//

@@ -22,5 +22,3 @@ describe("ListAllNotes", () => {
     expect(renderedListNotes).toBeDefined();
   });
 });
-
-//

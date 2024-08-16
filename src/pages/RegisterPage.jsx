@@ -1,4 +1,4 @@
-import { React, useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { Input, Button } from "@nextui-org/react";
 import { Link, useNavigate } from "react-router-dom";
 import { axiosInstance } from "../lib/axios";
@@ -178,10 +178,7 @@ const RegisterPage = () => {
           </Button>
           <p className="text-center">
             Sudah punya akun?{" "}
-            <Link
-              className="text-hijau-paling-muda"
-              to="/login"
-            >
+            <Link className="text-hijau-paling-muda" to="/login">
               Masuk
             </Link>
           </p>
