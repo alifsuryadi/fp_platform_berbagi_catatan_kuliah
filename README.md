@@ -25,6 +25,7 @@
 - [File and Folder Structure](#file-and-folder-structure)
 - [Entity-Relationship Diagram (ERD)](#entity-relationship-diagram-erd)
 - [Overview](#overview)
+- [License](#license)
 - [Contributing](#contributing)
 <!-- - [License](#license) -->
 
@@ -152,6 +153,10 @@ The ERD for NoteKuliah is as follows:
   ![NOTES](docs-assets/home-page.gif)
 - Management Notes
   ![MANAGEMENT NOTES](docs-assets/management-notes.gif)
+
+## License
+
+This project is licensed under the [MIT License](LICENSE.md)
 
 ## Contributing
 
