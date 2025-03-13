@@ -18,18 +18,28 @@
 
 ## Table of Contents
 
+- [Overview](#overview)
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Running Tests](#running-tests)
 - [File and Folder Structure](#file-and-folder-structure)
 - [Entity-Relationship Diagram (ERD)](#entity-relationship-diagram-erd)
-- [Overview](#overview)
 - [License](#license)
 - [Contributing](#contributing)
 <!-- - [License](#license) -->
 
 ---
+
+## Overview
+
+- Landing Page
+  ![LANDING PAGE](docs-assets/landing-page.gif)
+
+- Notes
+  ![NOTES](docs-assets/home-page.gif)
+- Management Notes
+  ![MANAGEMENT NOTES](docs-assets/management-notes.gif)
 
 ## Features
 
@@ -143,16 +153,6 @@ npx vitest
 The ERD for NoteKuliah is as follows:
 
 ![ERD NOTEKULIAH](docs-assets/erd-notekuliah.gif)
-
-## Overview
-
-- Landing Page
-  ![LANDING PAGE](docs-assets/landing-page.gif)
-
-- Notes
-  ![NOTES](docs-assets/home-page.gif)
-- Management Notes
-  ![MANAGEMENT NOTES](docs-assets/management-notes.gif)
 
 ## License
 
